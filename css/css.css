@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding-top: 0;
+}
+
+.div1 {
+    width: 250px;
+    height: 300px;
+}
+
+.img {
+    width: 200px;
+    height: 200PX;
+    border: 1 px solid black;
+}
+
+.zag {
+    font-size: 48px;
+    color: blue;
+
+}
+
+.title,
+.price {
+    font-size: 23px;
+}
+
+.visible {
+    display: flex !important;
+}
+
+.productsCat {
+    display: none;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.a{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.p{
+    text-decoration: none;
+    color: black;
+}
+.zadcat{
+    display: none;
+}
+.zadtov{
+    display: none;
+}
+.back{
+    color: white;
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+}
